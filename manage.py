@@ -3,6 +3,9 @@
 import os
 import sys
 
+if os.path.isfile("env.py"):
+    import env
+
 
 def main():
     """Run administrative tasks."""
