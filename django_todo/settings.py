@@ -11,6 +11,9 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
+if os.path.exists("env.py"):
+    import env
+
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -26,7 +29,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-mristimaki-hellodjango-wbtt1ztfgl7.ws-us101.gitpod.io']
+ALLOWED_HOSTS = ['8000-mristimaki-hellodjango-pgvmop4j3s1.ws-us101.gitpod.io']
 
 
 # Application definition
