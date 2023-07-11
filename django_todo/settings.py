@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-mristimaki-hellodjango-pgvmop4j3s1.ws-us101.gitpod.io']
+ALLOWED_HOSTS = ['8000-mristimaki-hellodjango-0kobgkf2n4k.ws-us101.gitpod.io']
 
 
 # Application definition
